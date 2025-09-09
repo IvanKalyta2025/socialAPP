@@ -41,9 +41,12 @@ h1 {
 
 
 .logo{
-    width: 620px;
-    height: 360px;
-    margin-bottom: 20px;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    width: 220px;
+    height: 110px;
+    margin-bottom: none;
 }
 
 .top-bar {
@@ -52,16 +55,17 @@ h1 {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #fffcfc;
     color: white;
     display: flex;
     align-items: center;
     padding: 10px 20px;
     gap: 10px;
+    justify-content: center;
 }
 
 .top-bar button {
-    background-color: #555;
+    background-color: #6d64ef;
     color: white;
     border: none;
     padding: 8px 15px;
